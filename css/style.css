@@ -9,26 +9,86 @@ html {
 }
 
 h1 {
-  font-size: var(--h1);
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: var(--h2);
+  font-size: 4rem;
 }
 
 h3 {
-  font-size: var(--h3);
+  font-size: 2.5rem;
 }
 
 h5 {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #2c2c2c;
 }
 
 ul {
   list-style: none;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: 2.5rem;
+}
+
+.main-head {
+  width: 95%;
+  margin: 0 0 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  min-height: 10vh;
+  width: 60%;
+  flex-wrap: wrap;
+}
+nav .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex: 1 1 10rem;
+}
+nav .logo h1 {
+  margin: 2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex: 1 1 40rem;
+}
+
+.intro {
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.splash {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 100%;
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */
